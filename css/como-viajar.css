@@ -1,0 +1,12 @@
+ p {
+    color: green;
+    text-align: center;
+}
+
+p#footer{
+    color: white;
+}
+
+a:hover{
+    color:red;
+}

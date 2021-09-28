@@ -1,0 +1,211 @@
+
+body{
+    background: url("../imagens/bg/7112b8402121ea170c9fab385639c3ca.jpg") 
+}
+
+div#interface {        
+    width: 80%;
+    background-color: rgb(197, 165, 118);
+    margin:-20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px;
+}
+
+/*cabeçalho*/
+header#cabecalho img#icone1 {
+    max-width: 200px;
+    position: absolute;
+    left:130px;
+    top:73px;
+}
+header#cabecalho img#icone2 {
+    max-width: 200px;
+    position: absolute;
+    left:580px;
+    top:73px;
+}
+header#cabecalho img#icone3 {
+    max-width: 200px;
+    position: absolute;
+    left:870px;
+    top:73px;
+}
+header#cabecalho{
+    border-bottom: 1px black solid;
+    height: 150px;     
+}
+header#cabecalho h1 {
+    text-align: center;
+    font-size: 30pt; 
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+    padding: 0px;
+    margin-bottom:0px ;
+    @font-face {
+        font-family: ;
+        src: url(RINGM___.ttf);
+    }
+}
+
+h2{
+    text-align: center;
+    @font-face {
+        font-family: ;
+        src: url(RINGM___.ttf);
+    }
+    
+}
+
+
+nav#menu {
+    display:block;
+}
+nav#menu ul {
+    list-style:none;
+    text-transform:uppercase;
+    position: absolute;
+    top: -20px;
+    left:400px;
+      
+}
+nav#menu li { 
+    display: inline-block; 
+
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+nav#menu li:hover { 
+    background-color:black;
+}
+
+nav#menu h1{
+    display:none
+}
+nav#menu a {
+    color:black;
+    text-decoration:none;
+}
+nav#menu a:hover{
+    color:white
+}
+div#video{
+    align-content: center;
+    border-bottom: 1px black solid;
+}
+
+video#apresentacao{
+    align-content: center;
+}
+
+/*fotos*/
+ul#album-fotos{
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#album-fotos li{
+    float: left;
+    width:200px ;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid rgb(46, 36, 29);
+    background-color: #ffffff;
+    box-shadow:1px 1px 3px rgba(0, 0, 0, .4) ;
+    transition: all .4s ease-in;
+}
+ul#album-fotos li span{
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+ul#album-fotos li:hover{
+    transform: scale(1.5);
+}
+    
+ul#album-fotos li:hover span{
+    opacity: 1;
+}
+
+ul#album-fotos li#foto01{
+    background:url('../imagens/locais/edoras.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color:black;
+    border-radius: 10%;
+    
+}
+ul#album-fotos li#foto01:hover{
+    background-position:0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto02{
+    background:url('../imagens/locais/the-shine.jpg') no-repeat ;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+    border-radius: 10%;
+}
+ul#album-fotos li#foto02:hover{
+    background-position:0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto03{
+    background: url('../imagens/locais/park-togariro.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+    border-radius: 10%;
+}
+ul#album-fotos li#foto03:hover{
+    background-position:0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto04{
+    background: url('../imagens/locais/montanha-nebulosa.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+    border-radius: 10%;
+}
+ul#album-fotos li#foto04:hover{
+    background-position:0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto05{
+    background: url('../imagens/locais/caminho-morto.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+    border-radius: 10%;
+}
+ul#album-fotos li#foto05:hover{
+    background-position:0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto06{
+    background: url('../imagens/locais/pelenor-fields.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+    border-radius: 10%;    
+}
+ul#album-fotos li#foto06:hover{
+    background-position:0px 0px;
+    background-size: 200px 200px;
+}
+
+video#apresentacao{
+    width: 700px;
+    margin: 0px 0px 0px 140px;
+}
+
+footer#rodape{
+    text-align: center;
+    color: white;
+}

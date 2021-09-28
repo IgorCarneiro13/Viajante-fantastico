@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang ="pt-br">
+<head>
+    <meta charset="utf-8"/>
+    <title>Fale Conosco</title>
+    <link rel=stylesheet href="../css/fale-conosco.css"/> 
+    <link rel=stylesheet href="../css/style.css"/>
+    <link rel="shortcut icon" href="../imagens/arvore-branca-new.ico">
+</head>
+<body>
+<div id="interface">
+    <header id="cabecalho"> 
+<nav id="menu" >
+      <h1>Menu Principal</h1>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="../html/como-viajar.html">Como Viajar?</a></li>
+        <li><a href="../html/locais.html">Locais</a></li>
+        <li><a href="../html/fale-conosco.html">Fale conosco</a></li>
+    </ul>
+</nav>
+    </header>
+    <section id= "corpo-full">
+        <article id=   "noticia-principal">  
+            <header id="cabecalho-artigo">    
+            <hgroup> 
+                <h3>Fale Conosco > Contato</h3>
+                <h1>Formulário de Contato</h1>
+            </hgroup>
+            </header>
+            <form method="post" id="fcontato" action="mailto:igor.arivy@live.com" oninput="calc_total();">
+                <fieldset id="usuario">
+                <legend>Identificação do Usuário</legend>
+                    <p><label for="cnome">Nome:</label><input type="text" name="tnome" id="cnome" size="20" maxlength="30" placeholder="Nome Completo"/></p>
+                    <p><label for="csenha">Senha:</label><input type="password" name="tsenha"
+                        id="csenha" size="8" maxlength="8"
+                        placeholder="8 Dígitos"/></p>
+                    <p><label for="cemail">E-mail:</label><input type="email" name="temail"
+                        id="cemail"
+                        placeholder="Digite seu E-mail"/></p>
+                <fieldset id="sexo"><legend>SEXO</legend>
+                      <input type="radio" name="tsexo" id="cmasc" checked/> <label for="cmasc">Masculino</label> 
+                      <br>
+                      <input type="radio" name="tsexo" id="cfem"/><label for="cfem">Feminino</label>
+                </fieldset>
+                    <p>Data de Nascimento:<input type="date" name="tnasc" id="cnasc" placeholder="Data De Nascimento"/></p>
+            </fieldset>
+            <fieldset id="endereco">
+                <legend> Endereço do Usuário </legend>
+                    <p><label for="crua"> Logradouro:</label><input type="text" name="trua"
+                        id="crua" size="13" maxlength="80" placeholder="Rua Índia..."/></p>
+                    <p><label for="cnum">Número:</label><input type="number" name="tnum" id="cnum" min="0" max="9999"/></p>
+                    <p><label for="cest">Estado:</label>
+                        <select name="test" id="cest">
+                            <optgroup label="Região Sudeste">
+                            <option>Rio de Janeiro</option>
+                            <option selected>São Paulo</option>
+                            <option>Minas Gerais</option>
+                            </optgroup>
+                            <optgroup label="Região Sul">
+                            <option>paraná</option>
+                            <option>santa catariana</option>
+                            <option>Rio Grande Do Sul</option>
+                            </optgroup>
+                        </select>
+                    </p>
+                    <p><label for="ccid">Cidade:</label><input type="text" name="tcid" id="ccidade" maxlength="40" size="20" placeholder="sua cidade"/>
+                        <datalist id="cidade">
+                            <option value="Rio De Janeiro"></option>
+                            <option value="Nova Iguaçu"></option>
+                            <option value="Penedo"></option>
+                            <option value="São paulo"></option>
+                            <option value="Guarulhos"></option>
+                        </datalist>
+                    </p>
+            </fieldset>
+            <fieldset id="mensagem">
+                <legend>Mensagem do Usuário </legend>
+                    <p><label for="curg">Grau de Urgência:</label> Min<input type="range" name="turg"
+                    id="curg" min="0" max="10" step="1"/>Max
+                    </p>
+                    <p><label for="cmsg">Mensagem:</label>
+                        <textarea name="tmsg" id="cmsg" cols="35" rows="5" placeholder="Deixe aqui sua mensagem."></textarea></p>                                                 
+            </fieldset>
+            
+        <input type="image" src="../imagens/form-contato/botao-enviar.png" />
+        </form>
+        </article>
+    </section>    
+
+<footer id="rodape">
+    <p>Copyright &copy; 2021 - by Igor Carneiro<br/>
+    <a href=https://www.facebook.com target="_blank">Facebook</a>
+    <a href=https://twitter.com target="_blank">Twitter</a></p>
+</footer>
+</div>
+</body>
+</html>

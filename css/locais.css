@@ -1,0 +1,45 @@
+.imdfagens{
+    align-items: center;
+}
+
+img#img01{
+    margin: 10px 10px 0px 130px;
+    width: 80%;
+}
+img#img02{
+    margin: 10px 10px 0px 130px;
+    width: 80%;
+}
+img#img03{
+    margin: 10px 10px 0px 130px;
+    width: 80%;
+}
+img#img04{
+    margin: 10px 10px 0px 130px;
+    width: 80%;
+}
+img#img05{
+    margin: 10px 10px 0px 130px;
+    width: 80%;
+}
+img#img06{
+    margin: 10px 10px 0px 130px;
+    width: 80%;
+}
+
+p{
+    color: green;
+    text-align: center;
+}
+.val{
+    margin: 50px 0px -5px 0px; 
+
+}
+
+a:hover{
+    color: green;
+}
+
+p#footer{
+    color: white;
+}
